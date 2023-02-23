@@ -1,0 +1,17 @@
+
+.footer__logo {
+    width: 5rem;
+ }
+
+ .footer_redes {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    margin-right: 1rem;
+ }
+
+ .footer__enlace img {
+    width: 2rem;
+ }
+

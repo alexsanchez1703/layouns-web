@@ -1,0 +1,26 @@
+.curso__link {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+}
+
+.curso__imagen {
+    width: 150px;
+}
+
+.curso__titulo {
+    margin-top: 1rem;
+    font-size: 15px;
+    text-transform: uppercase;
+    color: rgb(7, 7, 7);
+    font-weight: 1500;
+    font-weight: bold;
+    font-family: cursive;
+    padding: 1rem;  
+}
+.lista_curso:hover {
+    background-color: cornflowerblue;
+    padding: 3rem;
+}

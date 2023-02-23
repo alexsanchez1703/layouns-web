@@ -1,0 +1,19 @@
+.encabezado { 
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    width: 100vw;
+    flex-direction: column;
+    align-items: center;
+    border-bottom: 1px solid #103D4A;
+    padding-bottom: 0.75rem;
+}
+
+@media screen and (min-width: 767px) {
+    .encabezado {
+        border-bottom: none;
+        flex-direction: row;
+        justify-content: center;
+        gap: 22rem;
+    }
+}

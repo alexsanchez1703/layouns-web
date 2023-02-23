@@ -1,0 +1,22 @@
+.navegacion {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 0;
+}
+.lista-nav {
+    display: flex;
+    gap: 10px;
+}
+.link-nav {
+    text-decoration: none;
+    font-weight: bold;
+    font-family: ui-monospace;
+    color: white;
+    margin-top: 1rem;
+    font-size: 1.2rem;
+}
+.link-nav:hover {
+    text-decoration: underline;
+    color: cornflowerblue;
+}

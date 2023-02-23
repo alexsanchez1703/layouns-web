@@ -1,0 +1,7 @@
+.planes__lista {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 2rem;
+    justify-content: center;
+    gap: 3rem;
+ }

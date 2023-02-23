@@ -1,0 +1,62 @@
+.plan__basico, .plan__estandar, .plan__premiun {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 30rem;
+    width: 15rem;
+    border-radius: 5px;
+    padding: 1.5rem;
+    box-shadow: 0 2px 10px 2px #00000010;
+ }
+
+ .plan__basico:hover, .plan__estandar:hover, .plan__premiun:hover {
+    background-color: #f4ca4c;
+ } 
+
+ .plan__basico {
+    background-color: lightskyblue;
+ }
+
+ .plan__estandar {
+    background-color: lightcyan;
+ }
+
+ .plan__premiun {
+    background-color: lightgoldenrodyellow;
+ }
+
+ .plan__basico__titulo, .plan__estandar__titulo, .plan__premiun__titulo  {
+    font-size: 2rem;
+    font-weight: 900;
+    text-align: center;
+    padding: 0.75rem 0; 
+    margin-bottom: 0.5rem;   
+    border-bottom: 1px solid #DFE3F5;
+    text-transform: uppercase;
+ }
+
+ .plan__basico__contenido, .plan__estandar__contenido, .plan__premiun__contenido {
+    padding: 0 15%;
+ }
+
+ .plan__basico__precio, .plan__estandar__precio, .plan__premiun__precio {
+    font-size: 3rem;
+    font-weight: 700;
+    text-align: center;
+    margin-top: 1.25rem;
+    margin-bottom: 1.25rem;
+ }
+
+ .plan__basico__subtitulo,.plan__estandar__subtitulo, .plan__premiun__subtitulo {
+    color: #666;
+    line-height: 28px;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: bold;
+ }
+
+ .plan__basico__texto, .plan__estandar__texto, .plan__premiun__texto {
+    color: #666;
+    line-height: 25px;
+ }
